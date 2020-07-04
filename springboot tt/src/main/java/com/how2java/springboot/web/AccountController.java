@@ -16,8 +16,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.sql.Date;
 @RestController
 public class AccountController {
-	@Autowired AccountService accountService;
-	@CrossOrigin
+	@Autowired AccountService accountService;	
 	@PostMapping("/sign_up")
 	public void sign_up(HttpServletRequest httpServletRequest )
 	{
@@ -29,7 +28,6 @@ public class AccountController {
 		account.setEndtime(new Date(System.currentTimeMillis()));
 		accountService.add(account);
 	}
-	@CrossOrigin
 	@PostMapping("/sign_in")
 	public void sign_in(HttpServletRequest httpServletRequest )
 	{

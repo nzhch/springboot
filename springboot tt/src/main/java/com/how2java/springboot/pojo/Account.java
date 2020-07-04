@@ -3,13 +3,19 @@ package com.how2java.springboot.pojo;
 import java.sql.Date;
 
 public class Account {
+	private long id;
 	private String name;
 	private String password;
 	private Date starttime;
 	private Date endtime;
 	private boolean admin;
 
-
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	public boolean isAdmin() {
 		return admin;
 	}
