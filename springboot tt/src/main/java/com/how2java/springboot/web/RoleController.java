@@ -26,7 +26,7 @@ public class RoleController {
 	@Autowired
 	PermissionService permissionService;
 
-	@RequestMapping("listRole")
+	@RequestMapping("/listRole")
 	public String list(Model model) {
 		List<Role> rs = roleService.list();
 		model.addAttribute("rs", rs);
@@ -42,7 +42,7 @@ public class RoleController {
 		return "listRole";
 	}
 
-	@RequestMapping("editRole")
+	@RequestMapping("/editRole")
 	public String list(Model model, long id) {
 		Role role = roleService.get(id);
 		model.addAttribute("role", role);
@@ -56,14 +56,14 @@ public class RoleController {
 		return "editRole";
 	}
 
-	@RequestMapping("updateRole")
+	@RequestMapping("/updateRole")
 	public String update(Role role, long[] permissionIds) {
 		rolePermissionService.setPermissions(role, permissionIds);
 		roleService.update(role);
 		return "redirect:listRole";
 	}
 
-	@RequestMapping("addRole")
+	@RequestMapping("/addRole")
 	public String list(Model model, Role role) {
 		System.out.println(role.getName());
 		System.out.println(role.getDesc_());
@@ -71,7 +71,7 @@ public class RoleController {
 		return "redirect:listRole";
 	}
 
-	@RequestMapping("deleteRole")
+	@RequestMapping("/deleteRole")
 	public String delete(Model model, long id) {
 		roleService.delete(id);
 		return "redirect:listRole";

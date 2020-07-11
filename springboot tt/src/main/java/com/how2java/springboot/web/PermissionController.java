@@ -16,21 +16,21 @@ public class PermissionController {
 	@Autowired
 	PermissionService permissionService;
 
-	@RequestMapping("listPermission")
+	@RequestMapping("/listPermission")
 	public String list(Model model) {
 		List<Permission> ps = permissionService.list();
 		model.addAttribute("ps", ps);
 		return "listPermission";
 	}
 
-	@RequestMapping("editPermission")
+	@RequestMapping("/editPermission")
 	public String list(Model model, long id) {
 		Permission permission = permissionService.get(id);
 		model.addAttribute("permission", permission);
 		return "editPermission";
 	}
 
-	@RequestMapping("updatePermission")
+	@RequestMapping("/updatePermission")
 	public String update(Permission permission) {
 
 		permissionService.update(permission);
