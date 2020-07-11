@@ -1,7 +1,7 @@
-package com.how2java.mapper;
+package com.how2java.springboot.mapper;
 
-import com.how2java.pojo.RolePermission;
-import com.how2java.pojo.RolePermissionExample;
+import com.how2java.springboot.pojo.RolePermission;
+import com.how2java.springboot.pojo.RolePermissionExample;
 import java.util.List;
 
 public interface RolePermissionMapper {

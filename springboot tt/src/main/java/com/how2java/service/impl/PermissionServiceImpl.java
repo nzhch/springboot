@@ -8,8 +8,8 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.how2java.mapper.PermissionMapper;
-import com.how2java.mapper.RolePermissionMapper;
+import com.how2java.springboot.mapper.PermissionMapper;
+import com.how2java.springboot.mapper.RolePermissionMapper;
 import com.how2java.springboot.pojo.Permission;
 import com.how2java.springboot.pojo.PermissionExample;
 import com.how2java.springboot.pojo.Role;

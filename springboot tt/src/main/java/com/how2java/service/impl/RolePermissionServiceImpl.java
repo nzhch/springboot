@@ -5,12 +5,12 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.how2java.mapper.RolePermissionMapper;
-import com.how2java.pojo.Permission;
-import com.how2java.pojo.Role;
-import com.how2java.pojo.RolePermission;
-import com.how2java.pojo.RolePermissionExample;
-import com.how2java.service.RolePermissionService;
+import com.how2java.springboot.mapper.RolePermissionMapper;
+import com.how2java.springboot.pojo.Permission;
+import com.how2java.springboot.pojo.Role;
+import com.how2java.springboot.pojo.RolePermission;
+import com.how2java.springboot.pojo.RolePermissionExample;
+import com.how2java.springboot.service.RolePermissionService;
 
 @Service
 public class RolePermissionServiceImpl implements RolePermissionService {

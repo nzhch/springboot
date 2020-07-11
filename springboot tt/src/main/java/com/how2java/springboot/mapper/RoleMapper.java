@@ -1,7 +1,7 @@
-package com.how2java.mapper;
+package com.how2java.springboot.mapper;
 
-import com.how2java.pojo.Role;
-import com.how2java.pojo.RoleExample;
+import com.how2java.springboot.pojo.Role;
+import com.how2java.springboot.pojo.RoleExample;
 import java.util.List;
 
 public interface RoleMapper {

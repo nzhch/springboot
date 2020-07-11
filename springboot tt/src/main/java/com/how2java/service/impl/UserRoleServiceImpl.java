@@ -5,12 +5,12 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.how2java.mapper.UserRoleMapper;
-import com.how2java.pojo.Role;
-import com.how2java.pojo.User;
-import com.how2java.pojo.UserRole;
-import com.how2java.pojo.UserRoleExample;
-import com.how2java.service.UserRoleService;
+import com.how2java.springboot.mapper.UserRoleMapper;
+import com.how2java.springboot.pojo.Role;
+import com.how2java.springboot.pojo.User;
+import com.how2java.springboot.pojo.UserRole;
+import com.how2java.springboot.pojo.UserRoleExample;
+import com.how2java.springboot.service.UserRoleService;
 
 @Service
 public class UserRoleServiceImpl implements UserRoleService {

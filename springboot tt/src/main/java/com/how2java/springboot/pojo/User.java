@@ -1,12 +1,15 @@
 package com.how2java.springboot.pojo;
 
+import org.apache.shiro.crypto.hash.format.Shiro1CryptFormat;
+import org.springframework.beans.factory.annotation.Value;
+
 public class User {
 	private Long id;
 
 	private String name;
 
 	private String password;
-
+	//@Value("abc")
 	private String salt;
 
 	public Long getId() {
@@ -32,7 +35,7 @@ public class User {
 	public void setPassword(String password) {
 		this.password = password == null ? null : password.trim();
 	}
-
+	
 	public String getSalt() {
 		return salt;
 	}

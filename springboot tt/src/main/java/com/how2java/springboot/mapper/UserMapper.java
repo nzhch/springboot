@@ -1,7 +1,7 @@
-package com.how2java.mapper;
+package com.how2java.springboot.mapper;
 
-import com.how2java.pojo.User;
-import com.how2java.pojo.UserExample;
+import com.how2java.springboot.pojo.User;
+import com.how2java.springboot.pojo.UserExample;
 import java.util.List;
 
 public interface UserMapper {

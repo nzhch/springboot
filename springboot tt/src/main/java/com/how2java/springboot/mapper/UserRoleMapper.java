@@ -1,7 +1,7 @@
-package com.how2java.mapper;
+package com.how2java.springboot.mapper;
 
-import com.how2java.pojo.UserRole;
-import com.how2java.pojo.UserRoleExample;
+import com.how2java.springboot.pojo.UserRole;
+import com.how2java.springboot.pojo.UserRoleExample;
 import java.util.List;
 
 public interface UserRoleMapper {

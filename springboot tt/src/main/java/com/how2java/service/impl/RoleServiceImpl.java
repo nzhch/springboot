@@ -8,15 +8,15 @@ import java.util.Set;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.how2java.mapper.RoleMapper;
-import com.how2java.mapper.UserRoleMapper;
-import com.how2java.pojo.Role;
-import com.how2java.pojo.RoleExample;
-import com.how2java.pojo.User;
-import com.how2java.pojo.UserRole;
-import com.how2java.pojo.UserRoleExample;
-import com.how2java.service.RoleService;
-import com.how2java.service.UserService;
+import com.how2java.springboot.mapper.RoleMapper;
+import com.how2java.springboot.mapper.UserRoleMapper;
+import com.how2java.springboot.pojo.Role;
+import com.how2java.springboot.pojo.RoleExample;
+import com.how2java.springboot.pojo.User;
+import com.how2java.springboot.pojo.UserRole;
+import com.how2java.springboot.pojo.UserRoleExample;
+import com.how2java.springboot.service.RoleService;
+import com.how2java.springboot.service.UserService;
 
 @Service
 public class RoleServiceImpl implements RoleService {

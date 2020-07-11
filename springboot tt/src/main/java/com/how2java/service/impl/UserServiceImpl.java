@@ -5,11 +5,11 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.how2java.mapper.UserMapper;
-import com.how2java.pojo.User;
-import com.how2java.pojo.UserExample;
-import com.how2java.service.UserRoleService;
-import com.how2java.service.UserService;
+import com.how2java.springboot.mapper.UserMapper;
+import com.how2java.springboot.pojo.User;
+import com.how2java.springboot.pojo.UserExample;
+import com.how2java.springboot.service.UserRoleService;
+import com.how2java.springboot.service.UserService;
 
 @Service
 public class UserServiceImpl implements UserService {

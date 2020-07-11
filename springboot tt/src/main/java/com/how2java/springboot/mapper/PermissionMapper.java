@@ -1,7 +1,7 @@
-package com.how2java.mapper;
+package com.how2java.springboot.mapper;
 
-import com.how2java.pojo.Permission;
-import com.how2java.pojo.PermissionExample;
+import com.how2java.springboot.pojo.Permission;
+import com.how2java.springboot.pojo.PermissionExample;
 import java.util.List;
 
 public interface PermissionMapper {
